@@ -24,6 +24,7 @@ func main() {
 			ch = password[i]
 			length++
 
+			//cek tipe karakter
 			if ch >= 'A' && ch <= 'Z' {
 				hasUpper = true
 			} else if ch >= 'a' && ch <= 'z' {
